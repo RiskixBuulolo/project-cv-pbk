@@ -44,4 +44,20 @@ header {
     flex-wrap: wrap;
   }
 }
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+  animation: slideUpDown 5s infinite alternate; /* Menggunakan animasi slideUpDown selama 5 detik dan diulang-ulang */
+}
+
+@keyframes slideUpDown {
+  0% {
+    transform: translateY(0); /* Mulai dari posisi awal */
+  }
+  100% {
+    transform: translateY(100px); /* Bergerak ke bawah sejauh 100px */
+  }
+}
+
 </style>

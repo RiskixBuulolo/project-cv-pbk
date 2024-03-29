@@ -12,6 +12,10 @@
   "dependencies": {
     "vue": "^3.4.21"
   },
+
+  "predeploy": "npm run build",
+  "deploy": "gh- pages -d build",
+
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",

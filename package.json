@@ -14,7 +14,7 @@
   },
 
   "predeploy": "npm run build",
-  "deploy": "gh- pages -d build",
+  "deploy": "gh-pages -d build",
 
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
